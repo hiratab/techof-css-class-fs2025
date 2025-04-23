@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS - Border</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    div {
+      width: 10em;
+      height: 5em;
+      background-color: beige;
+    }
+
+    .solid {
+      border-style: solid;
+      border-width: 10px;
+      margin: 0em 1em;
+      margin-bottom: 2em;
+    }
+
+    .dotted {
+      border-style: dotted;
+      border-width: 1em;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .dashed {
+      border-style: dashed;
+      border-width: 10mm;
+      margin-inline: auto;
+    }
+
+    .double {
+      border-style: double;
+      border-width: 0.1em;
+      padding-top: 1em;
+      padding-left: 4em;
+    }
+
+    .mixed {
+      border-top-style: solid;
+      border-right-style: dashed;
+      border-bottom-style: groove;
+      border-left-style: double;
+      padding: 1em;
+    }
+
+    .mixed-shorthand {
+      border-style: solid dashed groove double;
+      border-width: 0.1em 20px 0.3cm 10vw;
+    }
+
+    .border-shorthand {
+      border: 1em solid blue;
+      border-right-color: red;
+      border-bottom-style: dashed;
+    }
+
+    .circle {
+      width: 5em;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <div></div>
+  <div class="solid"></div>
+  <div class="dotted">a</div>
+  <div class="dashed"></div>
+  <div class="double">algo</div>
+  <div class="mixed">texto</div>
+  <div class="mixed-shorthand"></div>
+  <div class="border-shorthand"></div>
+  <div class="circle"></div>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS - Text Decoration</title>
+    <style>
+      .container {
+        color: blue
+      }
+
+      .through {
+        text-decoration: line-through;
+      }
+
+      .through > span {
+        text-decoration: underline;
+      }
+
+      .overline {
+        text-decoration: overline;
+      }
+
+      .underline {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <p class="through">
+        through
+        <span>Meu Span</span>
+      </p>
+
+      <p class="overline">
+        overline
+      </p>
+
+      <p class="underline">
+        underline
+      </p>
+      
+
+      <div id="parent">
+        <div id="child"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS - Selectors</title>
+    <style>
+      .yellow, .red, .green {
+        font-family: cursive;
+      }
+      .yellow {
+        color: rgb(255, 255, 0);
+      }
+      .red { 
+        color: #ff0000;
+      }
+      .red.yellow {
+        color: orange;
+      }
+      .red.yellow.green {
+        color: mediumvioletred;
+      }
+      #diferente {
+        font-family: monospace;
+        color: lightsalmon;
+      }
+      .green {
+        color: green;
+      }
+      .bold {
+        font-weight: 900;
+      }
+    </style>
+
+    <!-- * < nome do tag (p) < class < id -->
+  </head>
+
+  <body>
+    <h1>
+      My recipe
+    </h1>
+
+    <p class="yellow">Yellow</p>
+    <p class="red bold">Red</p>
+    <p class="green red yellow">Green</p>
+    <p class="green bold">Outro P green</p>
+    <p class="green bold">Outro P green</p>
+    <p class="green" id="diferente">Outro P green quero com ID</p>
+  </body>
+</html>
