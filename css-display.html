@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS - Display</title>
+  <style>
+    .block {
+      background-color: bisque;
+    }
+
+    .block>p {
+      display: block;
+    }
+
+    .block>img {
+      display: block;
+    }
+
+    .inline {
+      background-color: darkgray;
+    }
+
+    .inline>p {
+      display: inline;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .grid {
+      display: grid;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="block">
+    <p>Algum Texto</p>
+    <p>Algum Texto</p>
+    <p>Algum Texto</p>
+    <img src="./images/tijolo.jpg" />
+    <img src="./images/tijolo.jpg" />
+  </div>
+  <div class="inline">
+    <p>Algum Texto</p>
+    <p>Algum Texto</p>
+    <p>Algum Texto</p>
+    <p>Algum Texto</p>
+    <p>Algum Texto</p>
+    <p>Algum Texto</p>
+    <p>Algum Texto</p>
+  </div>
+
+  <div class="flex">
+    <div>
+      <p>Algum Texto</p>
+    </div>
+    <div>
+      <p>Algum Texto</p>
+    </div>
+    <div>
+      <p>Algum Texto</p>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div>
+      <p>Algum Texto</p>
+    </div>
+    <div>
+      <p>Algum Texto</p>
+    </div>
+    <div>
+      <p>Algum Texto</p>
+    </div>
+  </div>
+</body>
+
+</html>
