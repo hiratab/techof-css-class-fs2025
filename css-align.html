@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    CSS - Align
+  </title>
+  <style>
+    .container {
+      background-color: blanchedalmond;
+      width: 40%;
+      margin-inline: auto;
+    }
+
+    .inside {
+      background-color: goldenrod;
+      width: 40%;
+      margin-inline: auto;
+    }
+
+    .text-container {
+      text-align: center;
+    }
+
+    .image-container > img {
+      display: block;
+      margin-inline: auto;
+    }
+
+    .inline-container {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="inside">
+      <div class="inside">
+        <div class="inside">
+          <div class="inside">
+            Hello
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-container">
+    Algum texto aqui para centralizar
+  </div>
+
+  <div class="image-container">
+    <img src="./images/tijolo.jpg" />
+  </div>
+
+  <div class="inline-container">
+    <span>Inline</span>
+    <img src="./images/tijolo.jpg" />
+  </div>
+  <div class="inline-container">
+    <img src="./images/tijolo.jpg" />
+  </div>
+</body>
+
+</html>
