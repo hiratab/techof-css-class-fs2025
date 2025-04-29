@@ -7,7 +7,7 @@
     .text-shadow {
       width: 100px;
       height: 100px;
-      text-shadow: 10px 10px greenyellow;
+      text-shadow: 1px 1px greenyellow;
       box-shadow: -1px 1px 46px 5px rgba(255, 203, 47, 0.62) inset;
       -webkit-box-shadow: -1px 1px 46px 5px rgba(255, 203, 47, 0.62) inset;
       -moz-box-shadow: -1px 1px 46px 5px rgba(255, 203, 47, 0.62) inset;
@@ -16,7 +16,10 @@
     }
 
     .text-shadow:hover {
-      transform: rotate(-180deg);
+      transform: rotate(10deg);
+      text-shadow: 10px 10px greenyellow;
+      transition: transform 0.1s,
+                  text-shadow 0.1s;
     }
   </style>
 </head>
