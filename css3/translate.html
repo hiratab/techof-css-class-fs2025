@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>scale</title>
+  <style>
+    .text-shadow {
+      width: 100px;
+      height: 100px;
+      text-shadow: 10px 10px greenyellow;
+      box-shadow: -1px 1px 46px 5px rgba(255, 203, 47, 0.62) inset;
+      -webkit-box-shadow: -1px 1px 46px 5px rgba(255, 203, 47, 0.62) inset;
+      -moz-box-shadow: -1px 1px 46px 5px rgba(255, 203, 47, 0.62) inset;
+      background-color: beige;
+      margin-inline: auto;
+    }
+
+    .text-shadow:hover {
+      transform: translate(100px, 100px);
+    }
+
+    body > div:nth-child(2) {
+      transform: translateX(100px);
+      /* position: relative;
+      right: -100px; */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="text-shadow">
+    Lorem ipsum dolor sit amet
+  </div>
+  <div class="text-shadow">
+    Lorem ipsum dolor sit amet
+  </div>
+  <div class="text-shadow">
+    Lorem ipsum dolor sit amet
+  </div>
+</body>
+
+</html>
