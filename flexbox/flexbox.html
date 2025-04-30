@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flexbox</title>
+  <style>
+    .wrapper {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: baseline;
+      height: 100px;
+    }
+
+    .wrapper-1 {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: rgb(91, 255, 50);
+      height: 200px;
+      flex-direction: column;
+    }
+
+    .wrapper>div {
+      background-color: bisque;
+      width: fit-content;
+      padding: 0.2em;
+      flex-grow: 1;
+    }
+
+    .wrapper-1>div {
+      background-color: bisque;
+      width: fit-content;
+      padding: 0.2em;
+    }
+
+    #arthur {
+      order: 1;
+    }
+
+    #outro {
+      order: -1;
+      flex-grow: 2;
+    }
+
+    .wrapper > #outro {
+      align-self: flex-end;
+    }
+
+    .wrapper-1 > #outro {
+      align-self: flex-end;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div id="arthur">
+      Hello 1
+    </div>
+    <div>
+      Hello 2
+    </div>
+    <div>
+      Hello 3
+    </div>
+    <div id="outro">
+      Hello 4
+    </div>
+  </div>
+  <div class="wrapper-1">
+    <div id="arthur">
+      Hello 1
+    </div>
+    <div>
+      Hello 2
+    </div>
+    <div>
+      Hello 3
+    </div>
+    <div id="outro">
+      Hello 4
+    </div>
+  </div>
+</body>
+
+</html>
