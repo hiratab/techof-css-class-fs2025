@@ -89,3 +89,40 @@ nav > ul > li:hover {
   background-color: rgba(238,88,170,0.3);
   transition: background-color 0.1s;
 }
+
+.our-study-tracks-container {
+  text-align: center;
+}
+
+.our-study-tracks-vision-container {
+  display: flex;
+  padding-top: 0.32em;
+}
+
+.our-study-tracks-vision-container > div {
+  padding: 1em;
+}
+
+.our-study-tracks-container > h1 {
+  color: rgba(158,15,153,1);
+}
+
+.our-study-tracks-container > p {
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+.our-study-tracks-vision-container > div > div > p {
+  text-align: start;
+}
+
+.our-study-tracks-vision-container > div > div > h3 {
+  color: rgba(158,15,153,1);
+}
+
+#separator {
+  border-bottom: 3px solid rgba(158,15,153,1);
+  width: 6em;
+  height: 0.1em;
+  margin-inline: auto;
+}
