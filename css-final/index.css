@@ -8,34 +8,34 @@ body {
 }
 
 header {
-  background-image: linear-gradient(to right, rgba(62,7,88,255), rgba(158,15,153,255));
+  background-image: linear-gradient(to right, rgba(62, 7, 88, 255), rgba(158, 15, 153, 255));
   width: 100%;
   padding-bottom: 2em;
   color: #ebe9e9;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   color: #ebe9e9;
   text-decoration: none;
 }
 
-header > nav > ul {
+header>nav>ul {
   margin: 0;
 }
 
-nav > ul {
+nav>ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-nav > ul > li {
+nav>ul>li {
   margin: 0;
   padding: 1em;
   list-style-type: none;
 }
 
-nav > ul > li:hover {
+nav>ul>li:hover {
   background-color: rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s;
 }
@@ -46,7 +46,7 @@ nav > ul > li:hover {
   align-items: center;
 }
 
-.header-content-container > div {
+.header-content-container>div {
   padding: 2em;
 }
 
@@ -54,7 +54,7 @@ nav > ul > li:hover {
   width: 40%;
 }
 
-.header-image-container > img {
+.header-image-container>img {
   width: 100%;
   min-width: 200px;
   max-width: 350px;
@@ -70,7 +70,7 @@ nav > ul > li:hover {
 }
 
 .btn-all-courses {
-  background-color: rgba(238,88,170,255);
+  background-color: rgba(238, 88, 170, 255);
   border: 0;
 }
 
@@ -80,13 +80,13 @@ nav > ul > li:hover {
 }
 
 .btn-show-me-more {
-  border: 1px solid rgba(238,88,170,255);
-  color: rgba(238,88,170,255);
+  border: 1px solid rgba(238, 88, 170, 255);
+  color: rgba(238, 88, 170, 255);
   font-weight: 500;
 }
 
 .btn-show-me-more:active {
-  background-color: rgba(238,88,170,0.3);
+  background-color: rgba(238, 88, 170, 0.3);
   transition: background-color 0.1s;
 }
 
@@ -99,42 +99,46 @@ nav > ul > li:hover {
   padding-top: 0.32em;
 }
 
-.our-study-tracks-vision-container > div {
+.our-study-tracks-vision-container>div {
   padding: 1em;
 }
 
-.our-study-tracks-container > h1 {
-  color: rgba(158,15,153,1);
+.our-study-tracks-container>h1 {
+  color: rgba(158, 15, 153, 1);
 }
 
-.our-study-tracks-container > p {
+.our-study-tracks-container>p {
   margin-left: 8em;
   margin-right: 8em;
 }
 
-.our-study-tracks-vision-container > div > div > p {
+.our-study-tracks-vision-container>div>div>p {
   text-align: start;
 }
 
-.our-study-tracks-vision-container > div > div > h3 {
-  color: rgba(158,15,153,1);
+.our-study-tracks-vision-container>div>div>h3 {
+  color: rgba(158, 15, 153, 1);
+}
+
+.our-study-tracks-vision-container>div>div>img {
+  max-width: 8em;
 }
 
 #separator {
-  border-bottom: 3px solid rgba(158,15,153,1);
+  border-bottom: 3px solid rgba(158, 15, 153, 1);
   width: 6em;
   height: 0.1em;
   margin-inline: auto;
 }
 
 .our-robots-container {
-  background-image: linear-gradient(to top, rgba(62,7,88,1), rgba(158,15,153,0));
+  background-image: linear-gradient(to top, rgba(62, 7, 88, 1), rgba(158, 15, 153, 0));
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
 
-.our-robots-container > h1 {
-  color: rgba(158,15,153,1);
+.our-robots-container>h1 {
+  color: rgba(158, 15, 153, 1);
   text-align: center;
 }
 
@@ -144,6 +148,20 @@ nav > ul > li:hover {
   padding-top: 1em;
 }
 
-.our-robots-images-container > div > img {
-  max-width: 15em;
+.our-robots-images-container>div>img {
+  max-width: 11em;
+}
+
+.whatsapp-logo-container {
+  position: fixed;
+  right: 1em;
+  bottom: 1em;
+  background-color: rgba(61, 175, 92, 1);
+  padding: 1em;
+  border-radius: 50%;
+  border: 0.2em solid #ffffff;
+}
+
+.whatsapp-logo-container > img {
+  max-width: 1em;
 }
