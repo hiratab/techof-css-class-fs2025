@@ -125,6 +125,7 @@ nav>ul>li:hover {
   width: 6em;
   height: 0.1em;
   margin-inline: auto;
+  margin-bottom: 1em;
 }
 
 .our-robots-container {
@@ -222,7 +223,7 @@ nav>ul>li:hover {
   width: 30%;
 }
 
-.phase-5-image-container > img {
+.phase-5-image-container>img {
   width: 100%;
 }
 
@@ -244,4 +245,56 @@ nav>ul>li:hover {
 
 .phase-5-content-list-item-description {
   padding-inline: 1em;
+}
+
+.recommended-container {
+  background-color: #f7f6f6;
+  padding-top: 1em;
+}
+
+.recommendations-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.recommendation-container {
+  position: relative;
+  border: 1px solid rgba(247, 131, 202, 1);
+  border-radius: 5%;
+  margin: 1em;
+  padding: 1em;
+  text-align: right;
+  box-shadow: 0px 0px 20px 9px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0px 0px 20px 9px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 0px 20px 9px rgba(0, 0, 0, 0.16);
+}
+
+.recommendation-name-container {
+  display: flex;
+  text-align: left;
+}
+
+.recommendation-name {
+  padding-left: 0.5em;
+}
+
+.recommendation-container>p:nth-child(2) {
+  color: rgba(158, 15, 153, 1);
+  font-weight: 700;
+}
+
+.recommendation-container>img {
+  position: absolute;
+  width: 2em;
+  top: -1em;
+  right: 40%;
+}
+
+.recommendation-name-image-container {
+  display: flex;
+  align-items: center;
+}
+
+.recommendation-name-image-container > img {
+  width: 2em;
 }
